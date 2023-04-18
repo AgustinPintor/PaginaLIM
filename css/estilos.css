@@ -1,0 +1,62 @@
+/*Paleta de colores*/
+/*Estilos de header*/
+body {
+  background-image: url(../img/dispositivos-tecnologicos.jpg); }
+
+.headerHome {
+  height: 8rem;
+  background-color: #161226;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .headerHome .logo {
+    width: 15%; }
+  .headerHome .navbar-toggler {
+    color: #FFE2E2; }
+  .headerHome .navbar-toggler-icon {
+    color: #FFE2E2; }
+  .headerHome nav {
+    background-color: #161226;
+    height: 1rem; }
+  .headerHome .container-fluid {
+    color: #FFE2E2;
+    height: 7rem;
+    background-color: #161226; }
+    .headerHome .container-fluid .nav-link {
+      color: #FFE2E2; }
+  .headerHome img {
+    height: 70%;
+    margin-left: 1rem; }
+  .headerHome .tituloHome {
+    margin-left: 9.2rem;
+    color: #FFE2E2;
+    cursor: default;
+    font-family: 'EB Garamond', serif; }
+
+/*Estilos de main*/
+.mainHome .contenedorCards {
+  display: flex;
+  justify-content: space-around; }
+  .mainHome .contenedorCards .card {
+    margin-top: 3rem;
+    background-color: #161226;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+    .mainHome .contenedorCards .card h5 {
+      text-decoration: underline;
+      color: #FFE2E2; }
+    .mainHome .contenedorCards .card p {
+      color: #FFE2E2; }
+  .mainHome .contenedorCards .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+.pieHome {
+  display: flex;
+  justify-content: right;
+  align-items: end; }
+  .pieHome .parrafoPie {
+    margin-top: 4rem; }

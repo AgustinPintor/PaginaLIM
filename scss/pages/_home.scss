@@ -1,0 +1,123 @@
+@import "../base/variables";
+
+
+
+
+
+/*Estilos de header*/
+body{
+    background-image: url(../img/dispositivos-tecnologicos.jpg);
+}
+
+.headerHome{
+    height: 8rem;
+    background-color: $colorAzul;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    .logo{
+        width: 15%;
+    }
+
+    .navbar-toggler{
+        color: $colorBlanco;
+    }
+
+    .navbar-toggler-icon{
+        color: $colorBlanco;
+    }
+
+    nav{
+        background-color: $colorAzul;
+        height: 1rem;   
+    }
+   
+    .container-fluid{
+        color: $colorBlanco;
+        height: 7rem;
+        background-color: $colorAzul;
+
+
+    .nav-link{
+        color: $colorBlanco;
+    }
+}
+
+img{
+   height: 70%;
+   margin-left: 1rem;
+}
+
+.tituloHome{
+    margin-left: 9.2rem;
+    color: $colorBlanco;
+    cursor: default;
+    font-family: 'EB Garamond', serif;
+}
+    
+}
+
+
+
+/*Estilos de main*/
+
+.mainHome{
+  
+    
+
+    .contenedorCards{  
+    display: flex;
+    justify-content: space-around;
+  
+    
+   
+        .card{
+            margin-top: 3rem;
+            background-color: $colorAzul;
+            border-radius: 6px;
+            overflow: hidden;
+            cursor: default;
+            transition: all 400ms ease;
+            box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+
+          
+
+            
+
+      
+          
+           
+
+            h5{
+                text-decoration: underline;
+                color: $colorBlanco;
+            }
+
+            p{
+                color: $colorBlanco;
+            }
+
+
+        }
+        .card:hover{
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+            transform: translateY(-3%);
+        }
+    }
+}
+
+
+
+.pieHome{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+
+    .parrafoPie{
+        margin-top: 4rem;
+    }
+}
+
